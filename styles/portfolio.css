@@ -91,4 +91,43 @@ nav{
 .banner-image img{
     width: 100%;
     max-width: 585px;
+    vertical-align: middle;
+}
+#about{
+    padding-top:130px;
+}
+#about .about-con{
+    margin:0 auto;
+    width:71%;
+    max-width: 1140px;
+    text-align: center;
+    background-color:#f0eeec ;
+    padding:130px 156px; 
+}
+.sec-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.sec-heading h2{
+    font-size: 35px;
+    padding-bottom:30px ;
+}
+.sec-heading p{
+    color: #bbad9a;
+    font-size:18px ;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#about .about-con .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color:#757575;
+}
+.about-info .info-card h4{
+    line-height: 30px;
+    color:#373131;
 }
